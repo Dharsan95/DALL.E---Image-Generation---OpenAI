@@ -11,7 +11,7 @@ import streamlit as st
 
 
 from openai import OpenAI
-client = OpenAI(api_key = "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")
+client = OpenAI(api_key = "YOUR API KEY")
 
 def generate_image(image_description):
 
